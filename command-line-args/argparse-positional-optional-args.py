@@ -12,15 +12,15 @@ else:
 
 #Output
 '''
-python argparse-positional-args.py -c madhu
+madhu@madhu-Inspiron-5567:$ python argparse-positional-args.py -c madhu
 4
 
 
-python testtemporaryfile.py madhu
+madhu@madhu-Inspiron-5567:$ python testtemporaryfile.py madhu
 MADHU
 
 
-python testtemporaryfile.py -h
+madhu@madhu-Inspiron-5567:$ python testtemporaryfile.py -h
 usage: testtemporaryfile.py [-h] [-c] word
 
 positional arguments:
