@@ -1,5 +1,5 @@
 import subprocess
-#result will be bytes format (as we have not used text=True, capture_output is used to store output in a variable
+#result will be bytes format (as we have not used text=True, capture_output is used to store output in a variable)
 output=subprocess.run(["ls", "-l"], capture_output=True)
 
 #input parameter takes input from the stdout of above command (we need to use "stdin" instead of "input", when input is from a file or provided  at runtime)
